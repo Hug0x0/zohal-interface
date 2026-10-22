@@ -50,9 +50,8 @@
     "ts-jest": "^29.4.15",
     "typescript": "5.2.2"
   },
-  "pnpm": {
-    "overrides": {
-      "next>postcss": "^8.5.31"
-    }
-  }
+  "engines": {
+    "node": "24.x"
+  },
+  "packageManager": "pnpm@11.18.0"
 }
